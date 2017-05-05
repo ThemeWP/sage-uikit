@@ -1,0 +1,18 @@
+{% if menu %}
+<div class="uk-navbar-container uk-sticky uk-sticky-fixed uk-active uk-navbar-sticky uk-sticky-below uk-margin-large-bottom">
+    <nav class="uk-navbar" uk-navbar="{"align":"left"}">
+        <div class="uk-navbar-center">
+            <div class="uk-margin-auto-vertical">
+                <ul class="uk-navbar-nav">
+                    {% for item in menu %}
+                        <li class="{{ item.classes | join(' ') }}">
+                            <a href="{{ item.get_link }}" class="nav-link">{{ item.title }}</a>
+                            {% include "blocks/nav-primary.twig" with {'menu': item.get_children} %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+{% endif %}

@@ -1,0 +1,21 @@
+{
+    "name": "sage-uikit",
+    "homepage": "https://roots.io/sage/",
+    "authors": [
+        "Ladislav Šulc <ladislav.sulc@emphatic.cz>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "uikit": "3.0.0-beta.22"
+    },
+    "overrides": {
+        "uikit": {
+            "main": [
+                "src/scss/mixins.scss",
+                "src/scss/variables.scss",
+                "src/scss/uikit.scss"
+            ]
+        }
+    }
+}
