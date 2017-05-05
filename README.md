@@ -17,12 +17,12 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 
 ## Features
 
-* [Timber](https://www.upstatement.com/timber/) a faster, easier and more powerful way to build themes 
+* [Timber](https://www.upstatement.com/timber/) a faster, easier and more powerful way to build themes
 * [gulp](http://gulpjs.com/) build script that compiles both Sass and Less, checks for JavaScript errors, optimizes images, and concatenates and minifies files
 * [BrowserSync](http://www.browsersync.io/) for keeping multiple browsers and devices synchronized while testing, along with injecting updated CSS and JS into your browser while you're developing
 * [Bower](http://bower.io/) for front-end package management
 * [asset-builder](https://github.com/austinpray/asset-builder) for the JSON file based asset pipeline
-* [Bootstrap](http://getbootstrap.com/)
+* [UIkit](https://getuikit.com/)
 * ARIA roles and microformats
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
 * [Multilingual ready](https://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/sage-translations)
