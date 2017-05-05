@@ -14,7 +14,9 @@
             "main": [
                 "src/scss/mixins.scss",
                 "src/scss/variables.scss",
-                "src/scss/uikit.scss"
+                "src/scss/uikit.scss",
+                "dist/js/uikit.min.js",
+                "dist/js/uikit-icons.min.js"
             ]
         }
     }
